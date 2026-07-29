@@ -1,5 +1,22 @@
+<div align="center">
 
+<picture>
+  <source 
+    media="(prefers-color-scheme: dark)"
+    srcset="./assets/banner-dark.png">
 
+  <source 
+    media="(prefers-color-scheme: light)"
+    srcset="./assets/banner-light.png">
+
+  <img 
+    src="./assets/banner-dark.png"
+    width="100%"
+    alt="Banner">
+
+</picture>
+
+</div>
 <h1 align="center">
   Hi 👋, I'm Krishna Sai Teja Sandalla
 </h1>
