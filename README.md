@@ -22,7 +22,7 @@
 
 ## 🛠️ Tech Stack
 
-<table width="100%" style="table-layout: fixed;>
+<table width="100%">
 <tr>
 
 <td width="50%" valign="top">
