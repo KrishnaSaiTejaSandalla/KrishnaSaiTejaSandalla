@@ -32,22 +32,27 @@ alt="GitHub Streak"
 
 </div>
 
+
 <div align="center">
+
+<p>
 
 <a href="https://www.linkedin.com/in/krishna-sai-teja-sandalla-47b98a304/">
   <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
 </a>
 
-&nbsp;&nbsp;
+&nbsp;
 
 <a href="https://github.com/KrishnaSaiTejaSandalla">
   <img src="https://img.shields.io/badge/GitHub-0A101F?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
 </a>
 
-&nbsp;&nbsp;
+&nbsp;
 
 <a href="mailto:krishnasaitejasandalla@gmail.com">
   <img src="https://img.shields.io/badge/Email-0A101F?style=for-the-badge&logo=gmail&logoColor=10B981" alt="Email"/>
 </a>
+
+</p>
 
 </div>
