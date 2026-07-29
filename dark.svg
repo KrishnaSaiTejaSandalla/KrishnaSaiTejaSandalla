@@ -1233,6 +1233,11 @@
 <tspan fill="#F8FAFC" font-weight="600"> @KrishnaSaiTejaSandalla</tspan>
 </text>
 </g>
+      </g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="3.34s" fill="freeze"/>
+<text x="470" y="577" font-size="14" fill="#94A3B8">&#9656; More about me &amp; projects below in README &#8595; <tspan fill="#22D3EE">&#9608;<animate attributeName="fill-opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></tspan></text>
+</g>
+
 </g>
 <rect x="3" y="3" width="1174" height="604" rx="17" fill="none" stroke="url(#accent)" stroke-width="3" opacity="0.55" filter="url(#glow8)"/>
 <rect x="3" y="3" width="1174" height="604" rx="17" fill="none" stroke="url(#accent)" stroke-width="1.6"/>
