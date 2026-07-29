@@ -22,31 +22,52 @@
 
 ## 🛠️ Tech Stack
 
-### Frontend
-<p>
-<img src="https://skillicons.dev/icons?i=html,css,js,react,nextjs,tailwind" />
-</p>
+<table>
+<tr>
 
-### Backend
-<p>
-<img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,mysql,postgres" />
-</p>
+<td width="50%" valign="top">
 
-### AI / ML
-<p>
-<img src="https://skillicons.dev/icons?i=python,tensorflow,pytorch" />
-</p>
+<h3>Frontend</h3>
 
-### Tools
-<p>
-<img src="https://skillicons.dev/icons?i=git,github,vscode,vercel" />
-</p>
+<img src="https://skillicons.dev/icons?i=html,css,js,react,nextjs,tailwind"/>
 
+</td>
+
+<td width="50%" valign="top">
+
+<h3>Backend</h3>
+
+<img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,mysql,postgres"/>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td width="50%" valign="top">
+
+<h3>AI / ML</h3>
+
+<img src="https://skillicons.dev/icons?i=python,tensorflow,pytorch"/>
+
+</td>
+
+<td width="50%" valign="top">
+
+<h3>Tools</h3>
+
+<img src="https://skillicons.dev/icons?i=git,github,vscode,vercel"/>
+
+</td>
+
+</tr>
+</table>
 
 <div align="center">
 
 <img 
-width="100%"
+width="100%" style="min-width: 900px;"
 src="https://streak-stats.demolab.com/?user=KrishnaSaiTejaSandalla&hide_border=true&background=0A101F&stroke=22D3EE&ring=A78BFA&fire=10B981&currStreakLabel=22D3EE&sideLabels=94A3B8&currStreakNum=F8FAFC&sideNums=F8FAFC&dates=64748B&titleColor=22D3EE&card_width=1180"
 alt="GitHub Streak"
 />
@@ -71,6 +92,7 @@ alt="GitHub Streak"
     srcset="https://raw.githubusercontent.com/KrishnaSaiTejaSandalla/KrishnaSaiTejaSandalla/output/github-snake.svg">
 
   <img 
+    width="100%"
     alt="GitHub contribution snake"
     src="https://raw.githubusercontent.com/KrishnaSaiTejaSandalla/KrishnaSaiTejaSandalla/output/github-snake.svg">
 </picture>
