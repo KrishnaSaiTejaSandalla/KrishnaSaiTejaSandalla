@@ -1,6 +1,10 @@
 <div align="center">
 
-<img width="100%" src="https://streak-stats.demolab.com/?user=KrishnaSaiTejaSandalla&hide_border=true">
+<img 
+width="100%"
+src="https://streak-stats.demolab.com?user=KrishnaSaiTejaSandalla&theme=dark&hide_border=true"
+alt="GitHub Streak"
+/>
 
 <br/>
 
