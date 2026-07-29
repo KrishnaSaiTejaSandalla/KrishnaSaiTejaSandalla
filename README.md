@@ -34,7 +34,7 @@ alt="GitHub Streak"
 
 <div align="center">
 
-<a href="https://www.linkedin.com/in/https://www.linkedin.com/in/krishna-sai-teja-sandalla-47b98a304/">
+<a href="https://www.linkedin.com/in/krishna-sai-teja-sandalla-47b98a304/">
   <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
 </a>
 
