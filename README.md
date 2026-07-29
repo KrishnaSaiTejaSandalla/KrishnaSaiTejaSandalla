@@ -13,6 +13,7 @@
   creating scalable web applications and intelligent solutions.
 </p>
 
+
 ## 🚀 Currently Working On
 
 - 🧠 AI-powered applications
@@ -25,7 +26,7 @@
 <table width="100%">
 <tr>
 
-<td width="50%" valign="top">
+<td width="600" valign="top">
 
 <h3>Frontend</h3>
 
@@ -33,7 +34,7 @@
 
 </td>
 
-<td width="50%" valign="top">
+<td width="600" valign="top">
 
 <h3>Backend</h3>
 
@@ -45,7 +46,7 @@
 
 <tr>
 
-<td width="50%" valign="top">
+<td width="600" valign="top">
 
 <h3>AI / ML</h3>
 
@@ -53,7 +54,7 @@
 
 </td>
 
-<td width="50%" valign="top">
+<td width="600" valign="top">
 
 <h3>Tools</h3>
 
