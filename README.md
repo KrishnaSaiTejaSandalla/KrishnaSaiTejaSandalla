@@ -1,3 +1,46 @@
+<h1 align="center">
+  Hi 👋, I'm Krishna Sai Teja Sandalla
+</h1>
+
+<h3 align="center">
+  Full Stack Developer | AI Enthusiast | Building AI-powered Web Applications
+</h3>
+
+<p align="center">
+  B.Tech Computer Science Engineering (AI) student passionate about 
+  creating scalable web applications and intelligent solutions.
+</p>
+
+## 🚀 Currently Working On
+
+- 🧠 AI-powered applications
+- 🌐 Full Stack Development using MERN / Next.js
+- 🤖 Machine Learning projects
+- ☁️ Exploring cloud deployment and scalable systems
+
+## 🛠️ Tech Stack
+
+### Frontend
+<p>
+<img src="https://skillicons.dev/icons?i=html,css,js,react,nextjs,tailwind" />
+</p>
+
+### Backend
+<p>
+<img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,mysql,postgres" />
+</p>
+
+### AI / ML
+<p>
+<img src="https://skillicons.dev/icons?i=python,tensorflow,pytorch" />
+</p>
+
+### Tools
+<p>
+<img src="https://skillicons.dev/icons?i=git,github,vscode,vercel" />
+</p>
+
+
 <div align="center">
 
 <img 
