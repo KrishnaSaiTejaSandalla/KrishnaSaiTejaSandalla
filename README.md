@@ -9,3 +9,21 @@
 <img width="49%" src="https://github-readme-stats-rust-ten-18.vercel.app/api/top-langs/?username=KrishnaSaiTejaSandalla&layout=compact&langs_count=8&hide_border=true&title_color=22D3EE&text_color=94A3B8&bg_color=0A101F&card_width=500" alt="top languages" />
 
 </div>
+
+<div align="center">
+
+<picture>
+  <source 
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/KrishnaSaiTejaSandalla/KrishnaSaiTejaSandalla/output/github-snake-dark.svg">
+
+  <source 
+    media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/KrishnaSaiTejaSandalla/KrishnaSaiTejaSandalla/output/github-snake.svg">
+
+  <img 
+    alt="GitHub contribution snake"
+    src="https://raw.githubusercontent.com/KrishnaSaiTejaSandalla/KrishnaSaiTejaSandalla/output/github-snake.svg">
+</picture>
+
+</div>
