@@ -1,42 +1,39 @@
-name: Generate Projects Panel
+# projects.yml
+# List of repositories to feature as project cards on the profile README.
+# fetch_data.py reads this file, pulls live metadata from the GitHub API for
+# each entry, and writes the merged result to projects.json.
+#
+# Fields:
+#   repo         (required) "owner/repo" on GitHub
+#   path         (optional) subfolder within the repo this project lives in,
+#                for mono-repos like Krishna-s/Echoes
+#   name         (optional) display name override (defaults to repo name, or
+#                the last segment of `path` if set)
+#   emoji        (optional) icon shown on the card (default: "📦")
+#   tagline      (optional) short description override, used when the repo
+#                has no description set on GitHub, or to shorten a long one
 
-on:
-  push:
-    branches: [main]
-    paths:
-      - "projects.json"
-      - "logos/**"
-      - ".github/scripts/generate_projects.py"
-      - ".github/scripts/fetch_data.py"
-  schedule:
-    - cron: "0 */6 * * *"
-  workflow_dispatch:
+username: KrishnaSaiTejaSandalla
 
-jobs:
-  generate:
-    permissions:
-      contents: write
-    runs-on: ubuntu-latest
-    timeout-minutes: 10
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+projects:
+  - repo: KrishnaSaiTejaSandalla/Edupredict
+    emoji: "🎓"
+    tagline: "AI-assisted education platform built with Next.js, Drizzle ORM & Tailwind"
 
-      - name: Fetch live repo data
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python3 .github/scripts/fetch_data.py
+  - repo: KrishnaSaiTejaSandalla/NorthPeak-Digital
+    emoji: "🏔️"
+    tagline: "Modern digital agency / business website"
 
-      - name: Generate projects.svg
-        run: |
-          mkdir -p out
-          python3 .github/scripts/generate_projects.py merged.json out
+  - repo: KrishnaSaiTejaSandalla/Spotify-clone
+    emoji: "🎵"
+    tagline: "Spotify-inspired music player UI built with React, Tailwind CSS & Context API"
 
-      - name: Push to projects branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: projects
-          build_dir: out
-          commit_message: "Update projects panel [skip ci]"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  - repo: KrishnaSaiTejaSandalla/nike-store
+    emoji: "👟"
+    tagline: "Nike-inspired e-commerce storefront UI"
+
+  - repo: KrishnaSaiTejaSandalla/Krishna-s
+    path: Echoes
+    name: Echoes
+    emoji: "🌀"
+    tagline: "Echoes — a project housed inside the Krishna-s repository"
