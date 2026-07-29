@@ -1,105 +1,157 @@
+<!-- ===== HERO BANNER ===== -->
+
+<picture>
+  <source 
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/KrishnaSaiTejaSandalla/KrishnaSaiTejaSandalla/main/dark.svg">
+
+  <source 
+    media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/KrishnaSaiTejaSandalla/KrishnaSaiTejaSandalla/main/light.svg">
+
+  <img 
+    alt="Krishna Sai Teja"
+    src="https://raw.githubusercontent.com/KrishnaSaiTejaSandalla/KrishnaSaiTejaSandalla/main/light.svg">
+</picture>
 
 
-<h1 align="center">
-  Hi 👋, I'm Krishna Sai Teja Sandalla
-</h1>
+<!-- ===== ABOUT ===== -->
 
 <h3 align="center">
-  Full Stack Developer | AI Enthusiast | Building AI-powered Web Applications
+Full Stack Developer | AI Enthusiast | Building AI-powered Applications
 </h3>
 
 <p align="center">
-  B.Tech Computer Science Engineering (AI) student passionate about 
-  creating scalable web applications and intelligent solutions.
+B.Tech CSE (AI) student passionate about scalable web applications,
+machine learning and intelligent systems.
 </p>
 
-## 🚀 Currently Working On
 
-- 🧠 AI-powered applications
-- 🌐 Full Stack Development using MERN / Next.js
-- 🤖 Machine Learning projects
-- ☁️ Exploring cloud deployment and scalable systems
+<br/>
 
-## 🛠️ Tech Stack
 
-### Frontend
-<p>
-<img src="https://skillicons.dev/icons?i=html,css,js,react,nextjs,tailwind" />
-</p>
-
-### Backend
-<p>
-<img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,mysql,postgres" />
-</p>
-
-### AI / ML
-<p>
-<img src="https://skillicons.dev/icons?i=python,tensorflow,pytorch" />
-</p>
-
-### Tools
-<p>
-<img src="https://skillicons.dev/icons?i=git,github,vscode,vercel" />
-</p>
-
+<!-- ===== STATS ===== -->
 
 <div align="center">
 
 <img 
 width="100%"
 src="https://streak-stats.demolab.com/?user=KrishnaSaiTejaSandalla&hide_border=true&background=0A101F&stroke=22D3EE&ring=A78BFA&fire=10B981&currStreakLabel=22D3EE&sideLabels=94A3B8&currStreakNum=F8FAFC&sideNums=F8FAFC&dates=64748B&titleColor=22D3EE&card_width=1180"
-alt="GitHub Streak"
 />
+
 
 <br/>
 
-<img width="49%" src="https://github-readme-stats-rust-ten-18.vercel.app/api?username=KrishnaSaiTejaSandalla&show_icons=true&count_private=true&include_all_commits=true&hide_rank=true&hide_border=true&title_color=22D3EE&icon_color=A78BFA&text_color=94A3B8&bg_color=0A101F&card_width=500" alt="stats" />
 
-<img width="49%" src="https://github-readme-stats-rust-ten-18.vercel.app/api/top-langs/?username=KrishnaSaiTejaSandalla&layout=compact&langs_count=8&hide_border=true&title_color=22D3EE&text_color=94A3B8&bg_color=0A101F&card_width=500" alt="top languages" />
+<img width="49%" 
+src="YOUR_STATS_URL"
+/>
+
+<img width="49%"
+src="YOUR_LANG_URL"
+/>
+
 
 </div>
+
+
+<br/>
+
+
+<!-- ===== TECH STACK ===== -->
+
+<div align="center">
+
+<h2>🛠️ Tech Stack</h2>
+
+<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,nodejs,express,mongodb,mysql,python,tensorflow,git,github,vscode,vercel"/>
+
+</div>
+
+
+<br/>
+
+
+<!-- ===== PROJECTS ===== -->
+
+<div align="center">
+
+<h2>🚀 Featured Projects</h2>
+
+</div>
+
+
+<table>
+<tr>
+
+<td width="50%">
+
+<h3 align="center">EduPredict</h3>
+
+<p align="center">
+AI-powered school management system with student performance prediction.
+</p>
+
+</td>
+
+
+<td width="50%">
+
+<h3 align="center">Echo</h3>
+
+<p align="center">
+AI accessibility platform for deaf and mute communication.
+</p>
+
+</td>
+
+</tr>
+</table>
+
+
+<br/>
+
+
+<!-- ===== SNAKE ===== -->
 
 <div align="center">
 
 <picture>
-  <source 
-    media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/KrishnaSaiTejaSandalla/KrishnaSaiTejaSandalla/output/github-snake-dark.svg">
 
-  <source 
-    media="(prefers-color-scheme: light)"
-    srcset="https://raw.githubusercontent.com/KrishnaSaiTejaSandalla/KrishnaSaiTejaSandalla/output/github-snake.svg">
+<source 
+media="(prefers-color-scheme: dark)"
+srcset="https://raw.githubusercontent.com/KrishnaSaiTejaSandalla/KrishnaSaiTejaSandalla/output/github-snake-dark.svg">
 
-  <img 
-    alt="GitHub contribution snake"
-    src="https://raw.githubusercontent.com/KrishnaSaiTejaSandalla/KrishnaSaiTejaSandalla/output/github-snake.svg">
+
+<source 
+media="(prefers-color-scheme: light)"
+srcset="https://raw.githubusercontent.com/KrishnaSaiTejaSandalla/KrishnaSaiTejaSandalla/output/github-snake.svg">
+
+
+<img 
+alt="GitHub Snake"
+src="https://raw.githubusercontent.com/KrishnaSaiTejaSandalla/KrishnaSaiTejaSandalla/output/github-snake.svg">
+
 </picture>
 
 </div>
 
+
+<br/>
+
+
+<!-- ===== SOCIAL ===== -->
+
 <div align="center">
 
-<table>
-<tr>
-<td>
 <a href="https://www.linkedin.com/in/krishna-sai-teja-sandalla-47b98a304/">
 <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
-</td>
 
-<td>
-<a href="https://github.com/KrishnaSaiTejaSandalla">
-  <img src="https://img.shields.io/badge/GitHub-0A101F?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-</a>
-</td>
+&nbsp;&nbsp;
 
-<td>
 <a href="mailto:krishnasaitejasandalla@gmail.com">
 <img src="https://img.shields.io/badge/Email-0A101F?style=for-the-badge&logo=gmail&logoColor=10B981"/>
 </a>
-</td>
-</tr>
-</table>
 
 </div>
-
