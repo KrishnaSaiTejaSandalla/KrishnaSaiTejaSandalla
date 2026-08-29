@@ -1,0 +1,83 @@
+name: Update GitHub Profile Stats
+
+on:
+  schedule:
+    # Runs every day at 03:00 UTC
+    - cron: "0 3 * * *"
+
+  # Allows you to run it manually from Actions
+  workflow_dispatch:
+
+  # Also regenerate whenever this workflow is changed
+  push:
+    paths:
+      - ".github/workflows/profile-stats.yml"
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      # Checkout your profile repository
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # -----------------------------------------
+      # GitHub Contribution Streak
+      # -----------------------------------------
+      - name: Generate GitHub Streak
+        uses: DenverCoder1/github-readme-streak-stats@main
+        with:
+          options: >-
+            user=${{ github.repository_owner }}&
+            background=0A101F&
+            stroke=22D3EE&
+            ring=A78BFA&
+            fire=10B981&
+            currStreakLabel=22D3EE&
+            sideLabels=94A3B8&
+            currStreakNum=F8FAFC&
+            sideNums=F8FAFC&
+            dates=64748B&
+            titleColor=22D3EE&
+            hide_border=true&
+            disable_animations=true
+          path: profile/streak.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # -----------------------------------------
+      # GitHub Activity Graph
+      # -----------------------------------------
+      - name: Generate Activity Graph
+        uses: maurodesouza/github-readme-activity-graph-action@v1
+        with:
+          username: ${{ github.repository_owner }}
+          options: >-
+            bg_color=0A101F&
+            color=22D3EE&
+            line=A78BFA&
+            point=10B981&
+            area=true&
+            hide_border=true&
+            height=300&
+            days=40
+          output_path: profile/activity-graph.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # -----------------------------------------
+      # Commit generated SVG files
+      # -----------------------------------------
+      - name: Commit generated profile cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add profile/streak.svg
+          git add profile/activity-graph.svg
+
+          git diff --cached --quiet || git commit -m "chore: update GitHub profile stats"
+
+          git push
